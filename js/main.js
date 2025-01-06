@@ -285,12 +285,12 @@
     
 	document.getElementById("confirmar").addEventListener("click", confirmar);
 	function confirmar(){
-		var selNumInv = $( "#selNumInv" ).val();
+		// var selNumInv = $( "#selNumInv" ).val();
 		var radioValue = $("input[name='confirm']:checked").val();
 		var message= "Hola,";
 		if(radioValue == "confirm"){
-			var numbertext = parseInt(selNumInv) > 1 ? selNumInv+' personas' : '1 persona'
-			message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20quinceañera%20de%20Ximena%20para%20"+numbertext;
+			
+			message+="%20quiero%20confirmar%20mi%20asistencia%20para%20la%20quinceañera%20de%20Ximena.";
 		}
 		else
 		{
